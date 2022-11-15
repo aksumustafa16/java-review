@@ -37,4 +37,22 @@ public class ArrayLists {
 
         return roleList;
     }
+    public static List<Role> createRoleListasdfqwegfaqwerg3q4tgq3w4etqwa4(){
+
+        List<Role> roleList = new ArrayList<>();
+        roleList.add(new Role(1,"Manager"));
+        roleList.add(new Role(2,"Employee"));
+        roleList.add(new Role(3,"Admin"));
+
+        return roleList;
+    }
+    public static List<Role> cr(){
+
+        List<Role> roleList = new ArrayList<>();
+        roleList.add(new Role(1,"Manager"));
+        roleList.add(new Role(2,"Employee"));
+        roleList.add(new Role(3,"Admin"));
+
+        return roleList;
+    }
 }
