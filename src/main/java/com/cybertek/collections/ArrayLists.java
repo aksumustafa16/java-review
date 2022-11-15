@@ -1,4 +1,4 @@
-package com.cybertek.collectings;
+package com.cybertek.collections;
 
 import com.cybertek.enums.Gender;
 import com.cybertek.oop.encapsulation.Role;
@@ -29,16 +29,6 @@ public class ArrayLists {
     }
 
     public static List<Role> createRoleList(){
-
-        List<Role> roleList = new ArrayList<>();
-        roleList.add(new Role(1,"Manager"));
-        roleList.add(new Role(2,"Employee"));
-        roleList.add(new Role(3,"Admin"));
-
-        return roleList;
-    }
-
-    public static List<Role> createRoleList1(){
 
         List<Role> roleList = new ArrayList<>();
         roleList.add(new Role(1,"Manager"));
