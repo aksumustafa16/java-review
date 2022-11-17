@@ -1,4 +1,4 @@
-package com.cybertek.lambda;
+package com.cybertek.lambda.course;
 
 public class Selenium implements Course {
 

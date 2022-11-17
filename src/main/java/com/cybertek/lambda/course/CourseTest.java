@@ -1,4 +1,4 @@
-package com.cybertek.lambda;
+package com.cybertek.lambda.course;
 
 public class CourseTest {
     public static void main(String[] args) {
