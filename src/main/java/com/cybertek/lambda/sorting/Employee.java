@@ -5,9 +5,7 @@ import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
-@ToString
+@Data
 public class Employee {
     private Integer employeeId;
     private String employeeFirstName;
