@@ -20,5 +20,24 @@ public class NumberList {
 
         System.out.println(list);
 
+        //With Lambda
+        //Ascending Order
+        Collections.sort(list);
+        System.out.println(list);
+
+        //Descending Order
+        Collections.sort(list, ((o1,o2) -> (o1>o2)?-1 : (o2>o1)?1 :0));
+        System.out.println(list);
+
+        //Ascending Order
+        list.sort(((o1, o2) -> o1.compareTo(o2)));
+        System.out.println(list);
+
+        //Descending Order
+        list.sort(((o1, o2) -> o2.compareTo(o1)));
+        System.out.println(list);
+
+
+
     }
 }
