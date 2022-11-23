@@ -43,6 +43,8 @@ public class ArrayLists {
         roleList.add(new Role(1,"Manager"));
         roleList.add(new Role(2,"Employee"));
         roleList.add(new Role(3,"Admin"));
+        roleList.add(new Role(4,"Employee"));
+        roleList.add(new Role(5,"Employee"));
 
         return roleList;
     }
