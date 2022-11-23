@@ -34,5 +34,12 @@ public class TerminalOperations {
                 .stream().filter(s -> s.equals("Apple")).collect(Collectors.toList());
         System.out.println("appleList = " + appleList);
         System.out.println("appleList = " + appleList.stream().count());
+
+        System.out.println("*********REDUCE***************");
+        int total = Arrays.asList(3,2,3,4,34,3,412,3,76,4).stream().reduce(5,(x,y) -> x+y);
+        System.out.println("total = " + total);
+
+        String word = Arrays.asList("C","Y","B","E","R","T","E","K").stream().reduce("",(a,b) -> a+b);
+        System.out.println("word = " + word);
     }
 }
