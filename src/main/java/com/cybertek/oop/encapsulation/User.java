@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -16,4 +18,8 @@ public class User {
     private String lastName;
     private Role role;
     private Gender gender;
+
+    public User(int i, LocalDateTime now, int i1, LocalDateTime plusHours, int i2, String delisa, String norre, Role managerRole, Gender female) {
+
+    }
 }

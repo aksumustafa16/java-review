@@ -35,4 +35,8 @@ public class Project extends BaseEntity {
         this.projectStatus = projectStatus;
         this.projectDetail = projectDetail;
     }
+
+    public boolean getProjectName() {
+        return false;
+    }
 }
